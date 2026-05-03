@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route("/")
 def home():
-    return "Origine 1847 Backend is running!"
+    return "Backend is running!"
 
 products = [
     {
